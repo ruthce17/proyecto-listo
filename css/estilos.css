@@ -1,0 +1,907 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+nav{
+    background: #0b0e0e;
+    height: 67px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    height: 80px;
+    margin-right: 140px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: underline;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 13px;
+    margin: 4px 4px 0 4px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #d46700;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.change {
+    display: inline-block;
+    vertical-align: bottom;
+    animation: blinker 2s linear infinite;
+    animation-delay: -1s;
+}
+
+.change span {
+    color: #000090;
+    float: left;
+    overflow: hidden;
+    animation: hideShow 12s linear infinite;
+}
+
+.change span:nth-child(1) { animation-delay: -0s; }
+.change span:nth-child(2) { animation-delay: -2s; }
+.change span:nth-child(3) { animation-delay: -4s; }
+.change span:nth-child(4) { animation-delay: -6s; }
+.change span:nth-child(5) { animation-delay: -8s; }
+.change span:nth-child(6) { animation-delay: -10s; }
+
+.banner img{
+    height: 377px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.avatar img{
+    width: 260px;
+    height: 260px;
+    margin-top: -120px;
+
+}
+
+.iconos{
+    margin-top: -30px;
+    margin-left: 40px;
+    letter-spacing: 9px;
+}
+
+.github{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+
+.linkedin{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.stackoverflow{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.letter{
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.letter1{
+    margin-left: 47px;
+    color: #000000;
+    font: normal normal 600 10px Segoe UI;
+    opacity: 1;
+}
+
+.letter2{
+    margin-left: 15px;
+    color: #000000;
+    font: normal normal 600 10px Segoe UI;
+    opacity: 1;
+}
+
+.letter3{
+    margin-left: 3px;
+    color: #000000;
+    font: normal normal 600 10px Segoe UI;
+    opacity: 1;
+}
+
+
+.desing{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.text{
+    max-width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+    height: 350px;
+    font: normal normal bold 18px Segoe UI;
+    letter-spacing: 0px;
+    color: #181818;
+    opacity: 1;
+}
+
+.text span{
+    font: italic normal 300 20px Segoe UI;
+}
+
+.text h3{
+    margin-top: 15px;
+}
+
+.text p {
+    font: normal normal 600 18px Segoe UI;
+    margin-top: 10px;
+}
+
+.bass{
+height: 353px;
+background: #DEDEDE 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.line{
+    height: 70px;
+    width: 3px;
+    background-color: black;
+    margin-top: -15px;
+}
+
+.form{
+    margin-left: 300px;
+    max-width: 350px;
+    height: 500px;
+}
+
+
+.form h2{
+font: normal normal 300 55px/73px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+padding-top: 35px;
+}
+
+.form h4{
+color: #707070;
+opacity: 1;
+
+height: 31px;
+padding: 10px;
+
+}
+
+span{
+height: 31px;
+font: normal normal bold 21px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+
+}
+
+.trab{
+    height: 353px;
+    background: #434343 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    
+    .line{
+        height: 70px;
+        width: 3px;
+        background-color: black;
+        margin-top: -15px;
+    }
+    
+    .exp{
+        margin-left: 300px;
+        max-width: 350px;
+        height: 350px;
+    }
+
+.proj {
+    height: 518px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+    
+    
+    .exp h2{
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    padding-top: 35px;
+    }
+    
+    .exp h4{
+    color: #707070;
+    opacity: 1;
+    
+    height: 31px;
+    padding: 10px;
+    
+    }
+
+.tri h2{
+    height: 73px;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-left: 300px;
+    padding-top: 40px;
+}
+
+    .fotos img{
+        width: 200px;
+        height: 250px;
+        margin-left: 20px;
+    }
+
+.fotos{
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
+.container{
+    display: flex;
+height: 500px;
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+color: white;
+}
+
+.container_to{
+    width: 300px;
+    height: 400px;
+    margin-left: 250px;
+
+}
+    
+.container_to h2{
+    color: white;
+    padding-top: 50px;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.container_to p{
+    font: normal normal normal 21px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.imon{
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-instagram{
+    color: white;
+}
+.fa-twitter{
+    color: white;
+}
+
+
+.formulario{
+width: 100px;
+}
+
+
+.controls {
+
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #cabd85;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+    margin-left: -200px;
+    width: 300px;
+}
+
+.formulario p {
+
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.formulario .botons {
+
+    background: rgb(117, 117, 117);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: -90px;
+    
+}
+
+
+@keyframes blinker {
+50% {
+    opacity: 0;
+}
+}
+@keyframes hideShow {
+0%, 16.6%, 33.33%, 100% { width: 0; }
+16.66%, 33.3% { width: auto; }
+}
+
+/* PRODUCTS */
+.products .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products .row .box{
+    width: 320px;
+    border: solid
+}
+
+/* MEDIAS QUERIES */
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: flex;
+    }
+    nav{
+        padding: 0 30px;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: #2c3e50;
+        top: 67px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        flex-direction: column;
+        z-index: 10;
+    }
+    nav ul li{
+        margin: 20px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: #000090;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .banner .row h2{
+        font-size: 3rem;
+    } 
+    
+}
+
+@media (max-width: 420px){
+
+    .avatar img{
+        width: 170px;
+        height: 170px;
+        margin-top: -120px;
+    
+    }
+
+.iconos{
+    margin-left: 20px;
+}
+
+    .github{
+        width: 35px;
+        height: 35px;
+    }
+
+    .linkedin{
+        width: 35px;
+        height: 35px;
+    }
+
+    .stackoverflow{
+    width: 35px;
+    height: 35px;
+    }
+
+.letter{
+    margin-left:12px ;
+}
+
+    .letter1{
+    margin-left: 8px;
+    font-size:8px ;
+    }
+
+    .letter2{
+        font-size: 8px;
+    }
+
+    .letter3{
+        font-size: 8px;
+    }
+
+
+    .container{
+        display: block;
+        height: 500px;
+        background: #a32222 0% 0% no-repeat padding-box;
+        opacity: 1;
+        color: white;
+
+    }
+
+    .text span{
+        font: italic normal 300 12px Segoe UI;
+    }
+    
+    .text h3{
+        margin-top: 8px;
+    }
+    
+    .text p {
+        font: normal normal 600 11px Segoe UI;
+        margin-top: 10px;
+        height: 200px;
+        width: 170px;
+    
+    }
+
+    .text h2{
+        font-size: 16px;
+    }
+
+    .bass{
+        height: 353px;
+        background: #DEDEDE 0% 0% no-repeat padding-box;
+        opacity: 1;
+        }
+        
+        .line{
+            height: 70px;
+            width: 3px;
+            background-color: black;
+            margin-top: -15px;
+        }
+        
+        .form{
+            margin-left: 80px;
+            max-width: 350px;
+            height: 500px;
+        }
+        
+        
+        .form h2{
+        font: normal normal 300 45px Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+        padding-top: 35px;
+        }
+        
+        .form h4{
+        color: #707070;
+        opacity: 1;
+        font-size: 12px;
+        height: 16px;
+        padding: 10px;
+        
+        }
+        
+        span{
+        height: 18px;
+        font: normal normal bold 18 Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+        
+        }
+
+            .line{
+                height: 70px;
+                width: 3px;
+                background-color: black;
+                margin-top: -15px;
+            }
+            
+            .exp{
+                margin-left: 90px;
+                max-width: 350px;
+                height: 350px;
+            }
+        
+        .proj {
+            height: 518px;
+            background: #F2F2F2 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+            
+            
+            .exp h2{
+            font: normal normal 300 40px Segoe UI;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+            padding-top: 35px;
+            }
+            
+            .exp h4{
+            color: #707070;
+            opacity: 1;
+            
+            height: 21px;
+            padding: 10px;
+            
+            }
+        
+        .tri h2{
+            margin-left: 80px;
+            font-size: 40px;
+            padding-top: 5px;
+        }
+
+        .fotos img{
+            width: 200px;
+            height: 130px;
+            margin-left: 80px;
+        }
+    
+    .fotos{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .container{
+        display: block;
+    height: 900px;
+    background: #000000 0% 0% no-repeat 
+    }
+    
+    .container_to{
+        width: 300px;
+        height: 400px;
+        margin-left: 80px;
+    
+    }
+    
+    .container_to p{
+        font: normal normal normal 18px Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
+    
+    .imon{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+        
+    .formulario{
+        width: 50px;
+        }
+        
+        
+        .controls {
+        
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #cabd85;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: white;
+            margin-top: 50px;
+            margin-left: -24px;
+            width: 300px;
+        }
+        
+        .formulario p {
+        
+            font-size: 18px;
+            line-height: 40px;
+        }
+        
+        .formulario a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .formulario a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .formulario .botons {
+        
+            
+            margin-left: 80px;
+            
+        }
+    
+}
+
+@media (max-width: 760px){
+
+    .avatar img{
+        width: 170px;
+        height: 170px;
+        margin-top: -120px;
+    
+    }
+    .container{
+        display: block;
+        height: 500px;
+        background: #a32222 0% 0% no-repeat padding-box;
+        opacity: 1;
+        color: white;
+
+    }
+
+    .text span{
+        font: italic normal 300 12px Segoe UI;
+    }
+    
+    .text h3{
+        margin-top: 8px;
+    }
+    
+    .text p {
+        font: normal normal 600 11px Segoe UI;
+        margin-top: 10px;
+        height: 200px;
+        width: 170px;
+    
+    }
+
+    .text h2{
+        font-size: 16px;
+    }
+
+    .bass{
+        height: 353px;
+        background: #DEDEDE 0% 0% no-repeat padding-box;
+        opacity: 1;
+        }
+        
+        .line{
+            height: 70px;
+            width: 3px;
+            background-color: black;
+            margin-top: -15px;
+        }
+        
+        .form{
+            margin-left: 80px;
+            max-width: 350px;
+            height: 500px;
+        }
+        
+        
+        .form h2{
+        font: normal normal 300 45px Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+        padding-top: 35px;
+        }
+        
+        .form h4{
+        color: #707070;
+        opacity: 1;
+        font-size: 12px;
+        height: 16px;
+        padding: 10px;
+        
+        }
+        
+        span{
+        height: 18px;
+        font: normal normal bold 18 Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+        
+        }
+
+            .line{
+                height: 70px;
+                width: 3px;
+                background-color: black;
+                margin-top: -15px;
+            }
+            
+            .exp{
+                margin-left: 90px;
+                max-width: 350px;
+                height: 350px;
+            }
+        
+        .proj {
+            height: 518px;
+            background: #F2F2F2 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+            
+            
+            .exp h2{
+            font: normal normal 300 40px Segoe UI;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+            padding-top: 35px;
+            }
+            
+            .exp h4{
+            color: #707070;
+            opacity: 1;
+            
+            height: 21px;
+            padding: 10px;
+            
+            }
+        
+        .tri h2{
+            margin-left: 80px;
+            font-size: 40px;
+            padding-top: 5px;
+        }
+
+        .fotos img{
+            width: 200px;
+            height: 130px;
+            margin-left: 80px;
+        }
+    
+    .fotos{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .container{
+        display: block;
+    height: 900px;
+    background: #000000 0% 0% no-repeat 
+    }
+    
+    .container_to{
+        width: 300px;
+        height: 400px;
+        margin-left: 80px;
+    
+    }
+    
+    .container_to p{
+        font: normal normal normal 18px Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+    }
+    
+    .imon{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+        
+    .formulario{
+        width: 50px;
+        }
+        
+        
+        .controls {
+        
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #cabd85;
+            font-family: 'calibri';
+            font-size: 18px;
+            color: white;
+            margin-top: 50px;
+            margin-left: -24px;
+            width: 300px;
+        }
+        
+        .formulario p {
+        
+            font-size: 18px;
+            line-height: 40px;
+        }
+        
+        .formulario a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .formulario a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .formulario .botons {
+        
+            
+            margin-left: 80px;
+            
+        }
+    
+}
